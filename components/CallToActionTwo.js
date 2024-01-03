@@ -5,7 +5,7 @@ const CallToActionTwo = () => {
         <section className="cta-two">
             <div className="container">
                 <img
-                    src="/assets/images/mocs/cta-moc-2-1.png"
+                    src="/assets/images/mocs/cta-moc-2-1.webp"
                     className="cta-two__moc"
                     alt="Awesome Image"
                 />
@@ -28,7 +28,7 @@ const CallToActionTwo = () => {
                                     sesión.
                                 </p>
                             </div>
-                            <a href="#" className="thm-btn">
+                            <a href="https://wa.me/5215551004343" className="thm-btn">
                                 <span>¡Agenda hoy!</span>
                             </a>
                         </div>

@@ -1563,7 +1563,7 @@ a:visited {
 
 @media (min-width: 1200px) {
   .footer-widget__links-wrap {
-    padding-right: 55px;
+    padding-right: 1px;
   }
 }
 
@@ -2804,4 +2804,53 @@ html {
 }
 .fact-one__text{
   text-align: center;
+}
+
+.btn-wp{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: #00be2c;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 2000;
+}
+.btn-pn{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: #6800be;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 2000;
+  display: none;
+}
+
+.btn-fixed a :nth-child(1){
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px){
+  .btn-pn{
+    display: flex;
+  }
+  .main-logo{
+    width: 50px;
+  }
+}
+.sucursal{
+  width: 100%;
+  margin-right: 30px;
 }

@@ -11,7 +11,7 @@ const CallToAction = () => {
             />
             <div className="container">
                 <img
-                    src="/assets/images/mocs/cta-moc-1-1.png"
+                    src="/assets/images/mocs/cta-moc-1-1.webp"
                     className="cta-one__moc"
                     alt="Awesome Image"
                 />
@@ -40,7 +40,7 @@ const CallToAction = () => {
                                     <i className="fa fa-check"></i>Soluciones rápidas y sin complicaciones en una sola sesión.
                                 </li>
                             </ul>
-                            <a href="#" className="thm-btn">
+                            <a href="https://wa.me/5215551004343" className="thm-btn">
                                 <span>¡Agenda hoy!</span>
                             </a>
                         </div>

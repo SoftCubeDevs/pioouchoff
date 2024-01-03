@@ -51,7 +51,7 @@ export default class NavOne extends Component {
                     <div className="container clearfix">
                         <div className="logo-box clearfix">
                             <a className="navbar-brand" href="/">
-                                <img src="/assets/images/resources/logo-dark.png" className="main-logo" width="119"
+                                <img src="/assets/images/resources/logo-dark.png" className="main-logo" width="100"
                                     alt="Awesome Image" />
                             </a>
                             <button className="menu-toggler">
@@ -78,7 +78,7 @@ export default class NavOne extends Component {
                             </ul>
                         </div>
                         <div className="right-side-box">
-                            <a className="thm-btn header__cta-btn" href="#"><span>Contacto</span></a>
+                            <a className="thm-btn header__cta-btn" href="https://wa.me/5215551004343"><span>Contacto</span></a>
                         </div>
                     </div>
                 </nav>
