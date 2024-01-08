@@ -3,6 +3,7 @@ import NavTwo from "../components/NavTwo";
 import Footer from "../components/Footer";
 import BannerTwo from "../components/BannerTwo";
 import Features from "../components/Features";
+import Video from "../components/Video";
 import CallToAction from "../components/CallToAction";
 import CallToActionTwo from "../components/CallToActionTwo";
 import Pricing from "../components/Pricing";
