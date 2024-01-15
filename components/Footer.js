@@ -1,7 +1,8 @@
 import React,{ Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Blog extends Component {
-    
+
 
     render(){
         return (
@@ -17,11 +18,6 @@ export default class Blog extends Component {
                                         <p className="footer-widget__contact"><a href="tel:5594041740">55 9404 1740</a></p>
                                         <p className="footer-widget__contact"> <a href='https://maps.app.goo.gl/5Fyn53jiG3WaB2j86'>Francisco de P.Miranda 377, col. Merced Gómez,<br /> Álvaro Obregón CP 01480 CDMX</a></p><br/>
                                         <div className="footer-widget">
-                                            <div className="site-footer__social">
-                                                <a href="#" className="fa fa-facebook-square"></a>
-                                                <a href="#" className="fa fa-twitter"></a>
-                                                <a href="#" className="fa fa-instagram"></a>
-                                            </div>
                                         </div>
                                 </div>
                             </div>
@@ -55,7 +51,7 @@ export default class Blog extends Component {
                 <div className="site-footer__bottom">
                     <div className="container">
                         <div className="inner-container text-center">
-                            <p className="site-footer__copy">Desarrollado por <a href="zyntus.com">Zyntus.com</a></p>
+                            <p className="site-footer__copy">Desarrollado por <a href="http://zyntus.com">Zyntus</a> </p>
                         </div>
                     </div>
                 </div>
