@@ -41,6 +41,14 @@ export default class NavOne extends Component {
         mainNavToggler.addEventListener("click", function () {
             mainNav.style.display = ( (mainNav.style.display != "block" ? "block" : "none" ) );
         });
+        // Agregar event listener para cerrar el menú cuando se hace clic en un elemento del menú
+    let menuItems = document.querySelectorAll(".main-navigation a");
+
+    menuItems.forEach(function (menuItem) {
+        menuItem.addEventListener("click", function () {
+            mainNav.style.display = "none";
+        });
+    });
     }
 
     render(){

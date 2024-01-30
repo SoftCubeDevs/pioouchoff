@@ -15,7 +15,7 @@ export default class Blog extends Component {
                                 <div className="footer-widget footer-widget__about">
                                     <img src="/assets/images/resources/logo-dark.png" width="119" alt=""
                                         className="footer-widget__logo" />
-                                        <p className="footer-widget__contact"><a href="tel:5594041740">55 9404 1740</a></p>
+                                        <p className="footer-widget__contact"><a href="tel:5551004343">55 5100 4343</a></p>
                                         <p className="footer-widget__contact"> <a href='https://maps.app.goo.gl/5Fyn53jiG3WaB2j86'>Francisco de P.Miranda 377, col. Merced Gómez,<br /> Álvaro Obregón CP 01480 CDMX</a></p><br/>
                                         <div className="footer-widget">
                                         </div>
@@ -25,14 +25,14 @@ export default class Blog extends Component {
                                 <div className="footer-widget sucursal">
                                     <h3 className="footer-widget__title">Sucursal Mixcoac</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="tel:5594041740">55 9404 1740</a></li>
+                                        <li><a href="tel:5551004343">55 5100 4343</a></li>
                                         <li><a href="#servicios">Francisco de P.Miranda 377,<br /> col. Merced Gómez,<br /> Álvaro Obregón <br />CP 01480 CDMX</a></li>
                                     </ul>
                                 </div>
                                 <div className="footer-widget sucursal">
                                 <h3 className="footer-widget__title">Sucursal Tlalpan</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="tel:5547403702">55 4740 3702</a></li>
+                                        <li><a href="tel:5570127591">55 7012 7591</a></li>
                                         <li><a href="#servicios">Prolongación División del Norte<br/> 4506, Plaza Acambay. <br/>Tlalpan.</a></li>
                                     </ul>
                                 </div>
